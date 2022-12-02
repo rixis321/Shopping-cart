@@ -47,6 +47,18 @@ body{
 
 }
 
+@media(max-width: 1000px){
+    .shop{
+        grid-template-columns: repeat(2,223px);
+    }
+}
+
+@media(max-width: 500px){
+    .shop{
+        grid-template-columns: repeat(1,223px);
+    }
+}
+
 .item{
     border: 2px solid #2b2d42;
     border-radius: 4px;
@@ -79,4 +91,8 @@ body{
 
 .bi-dash-lg{
     color: green;
+}
+
+.img{
+    width: 220px;
 }
