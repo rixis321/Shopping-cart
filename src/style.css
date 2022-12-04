@@ -24,6 +24,7 @@ a{
     padding: 25px 60px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -53,6 +54,7 @@ a{
     grid-template-columns: repeat(4,223px);
     gap: 30px;
     justify-content: center;
+    margin-bottom: 40px;
 
 }
 
@@ -73,6 +75,11 @@ a{
     border-radius: 4px;
 
 
+}
+
+.item img{
+    width: 100%;
+    border-radius: 2px 2px 0 0;
 }
 
 .details{
@@ -113,7 +120,9 @@ a{
     margin-bottom: 20px;
 }
 
-.homeButton{
+.homeButton,
+.checkout,
+.removeAll{
     background-color: #2b2d42;
     color: white;
     border: none;
@@ -122,7 +131,9 @@ a{
     cursor: pointer;
     margin-top: 10px;
 }
-.homeButton:hover{
+.homeButton:hover,
+.checkout:hover,
+.removeAll:hover{
     background-color: #2a9d8f;
 }
 
@@ -165,3 +176,4 @@ a{
     border-radius: 3px;
 
 }
+
