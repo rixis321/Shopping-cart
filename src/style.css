@@ -9,6 +9,15 @@ body{
     font-family: sans-serif;
 }
 
+i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .navbar{
     background-color: #2b2d42;
     color: white;
@@ -95,4 +104,64 @@ body{
 
 .img{
     width: 220px;
+}
+
+/** style for created things in js **/
+
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.homeButton{
+    background-color: #2b2d42;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.homeButton:hover{
+    background-color: #2a9d8f;
+}
+
+.bi-x-lg{
+ color: red;
+    font-weight: bold;
+}
+
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1,450px);
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.cart-item{
+    border: 2px solid #2b2d42;
+    border-radius: 5px;
+    display: flex;
+}
+
+.title-price-x{
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-item-price{
+    background-color: #2b2d42;
+    color: white;
+    padding: 3px 8px ;
+    border-radius: 3px;
+
 }
